@@ -9,3 +9,8 @@ clips_test/
 clips_mix/
 seg/
 overlay.png
+*.wav
+v2/stills/
+v2/clips/
+v2/seg/
+v2/ref_protagonista.png

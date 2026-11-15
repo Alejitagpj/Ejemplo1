@@ -1,0 +1,16 @@
+{
+ "model_id": "music_v1",
+ "respect_sections_durations": true,
+ "composition_plan": {
+  "positive_global_styles": ["cinematic film score","solo piano and string orchestra","emotional","intimate","slow tempo around 66 bpm","D minor resolving to D major","lush hall reverb","instrumental","underscore for spoken narration","gentle dynamics"],
+  "negative_global_styles": ["vocals","choir","drums","percussion","electronic beats","synth bass","upbeat","pop","aggressive","busy melody"],
+  "sections": [
+   {"section_name":"Descent","positive_local_styles":["sparse low solo piano","dark minor chords","long silences between notes","soft low drone","heavy and solemn"],"negative_local_styles":["strings melody","bright","major key"],"duration_ms":43000,"lines":[]},
+   {"section_name":"Scars","positive_local_styles":["piano motif becomes more melodic","solo cello enters softly","tender","melancholic","quiet"],"negative_local_styles":["full orchestra","loud"],"duration_ms":54000,"lines":[]},
+   {"section_name":"Fire and Choice","positive_local_styles":["low strings tremolo","subtle tension","slow swell","piano ostinato in minor","restrained intensity"],"negative_local_styles":["percussion","climax"],"duration_ms":36000,"lines":[]},
+   {"section_name":"Choosing","positive_local_styles":["harmony shifts toward major","warm violas and violins join","gradual build","hope emerging","piano melody rises"],"negative_local_styles":["dark","loud brass"],"duration_ms":41000,"lines":[]},
+   {"section_name":"Peace","positive_local_styles":["full warm strings","hopeful major key","flowing piano arpeggios","serene","gentle swell then calm"],"negative_local_styles":["drums","bombastic"],"duration_ms":47000,"lines":[]},
+   {"section_name":"Freedom","positive_local_styles":["open airy strings","high soft violin line","piano resolves on D major chord","luminous","slow fade to silence"],"negative_local_styles":["abrupt ending","dark"],"duration_ms":18500,"lines":[]}
+  ]
+ }
+}

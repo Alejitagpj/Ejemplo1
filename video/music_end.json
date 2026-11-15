@@ -1,0 +1,7 @@
+{"model_id":"music_v1","respect_sections_durations":true,"composition_plan":{
+ "positive_global_styles":["cinematic film score","solo piano and string orchestra","D major","slow tempo around 66 bpm","lush hall reverb","instrumental","luminous","hopeful","underscore for spoken narration"],
+ "negative_global_styles":["vocals","choir","drums","percussion","electronic","upbeat","pop","dark","minor key"],
+ "sections":[
+  {"section_name":"Opening light","positive_local_styles":["warm sustained strings already playing","gentle piano arpeggios","soft high violin melody","serene"],"negative_local_styles":["silence","abrupt start"],"duration_ms":16000,"lines":[]},
+  {"section_name":"Resolution","positive_local_styles":["strings hold a final D major chord","single soft piano notes","long natural decay","fade out slowly into silence"],"negative_local_styles":["abrupt ending","new themes"],"duration_ms":12000,"lines":[]}
+ ]}}
