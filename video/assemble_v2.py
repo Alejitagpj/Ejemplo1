@@ -23,7 +23,7 @@ def seg(i):
     L=durs[i]+(X if i<len(SHOTS)-1 else 0); avail=probe(src)-off-0.1
     f=max(1.0,L/avail)
     ember = src=='clips/02.mp4'
-    crop_y=f'(ih-{H})' if ember else f'(ih-{H})/2'
+    crop_y=f'(ih-{H})' if (ember or src=='v2/clips/24.mp4') else f'(ih-{H})/2'
     eq='eq=brightness=0.05:gamma=1.35:saturation=1.1,' if ember else ''
     slow=f'setpts={f:.4f}*PTS,' if f>1 else ''
     interp='minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1' if f>1.05 else f'fps={FPS}'
