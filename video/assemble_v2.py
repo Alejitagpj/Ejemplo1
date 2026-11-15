@@ -44,8 +44,8 @@ F.append(f'[{prev}]trim=0:{END:.3f},fade=t=in:st=0:d=1.0,fade=t=out:st={END-2.5:
 F.append(f'[{n+2}:v]format=rgba[ov];[base][ov]overlay=0:0:shortest=0,noise=alls=3:allf=t,ass=subs.ass:fontsdir=fonts,format=yuv420p[vout]')
 # audio: voice normalized, music ducked under voice, mixed, final loudness
 F.append(f'[{n}:a]aresample=48000,apad,atrim=0:{END:.3f},loudnorm=I=-16:TP=-2:LRA=11,asplit=2[vo][key]')
-F.append(f'[{n+1}:a]aresample=48000,atrim=0:{END:.3f},loudnorm=I=-24:TP=-4:LRA=14[mu]')
-F.append('[mu][key]sidechaincompress=threshold=0.02:ratio=5:attack=60:release=900:makeup=1[mud]')
+F.append(f'[{n+1}:a]aresample=48000,atrim=0:{END:.3f},loudnorm=I=-23:TP=-4:LRA=14[mu]')
+F.append('[mu][key]sidechaincompress=threshold=0.06:ratio=2.5:attack=80:release=1000:makeup=1[mud]')
 F.append(f'[vo][mud]amix=inputs=2:normalize=0:duration=first,afade=t=out:st={END-2.5:.3f}:d=2.5,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]')
 inputs+=['-i',AUDIO,'-i',MUSIC,'-loop','1','-framerate',str(FPS),'-i','overlay.png']
 cmd=['ffmpeg','-y','-hide_banner','-loglevel','error']+inputs+['-filter_complex',';'.join(F),'-map','[vout]','-map','[aout]',
