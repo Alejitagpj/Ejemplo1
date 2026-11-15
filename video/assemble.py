@@ -23,7 +23,7 @@ def seg(i):
     if os.path.exists(out) or not os.path.exists(f'{CLIPDIR}/{i+1:02d}.mp4'): return
     slow=f'setpts={f:.4f}*PTS,' if f>1 else ''
     interp=('minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1' if (f>1.05 and not PREVIEW) else f'fps={FPS}')
-    vf=f'scale={W}:-2:flags=lanczos,crop={W}:{H}:0:(ih-{H})/2,{slow}{interp},fps={FPS},trim=0:{L:.3f},setpts=PTS-STARTPTS,setsar=1,format=yuv420p'
+    vf=f'scale={W}:-2:flags=lanczos,crop={W}:{H}:0:{'(ih-'+str(H)+')' if i==1 else '(ih-'+str(H)+')/2'},{'eq=brightness=0.05:gamma=1.35:saturation=1.1,' if i==1 else ''}{slow}{interp},fps={FPS},trim=0:{L:.3f},setpts=PTS-STARTPTS,setsar=1,format=yuv420p'
     subprocess.run(['ffmpeg','-y','-loglevel','error','-i',f'{CLIPDIR}/{i+1:02d}.mp4','-vf',vf,'-an','-c:v','libx264','-preset','veryfast','-crf','14','-threads','2',out],check=True)
     print('seg',i+1,'f=%.2f'%f,flush=True)
 with ThreadPoolExecutor(2) as ex: list(ex.map(seg,range(len(durs))))
