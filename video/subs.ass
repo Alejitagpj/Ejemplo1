@@ -1,0 +1,103 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1350
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Cormorant Garamond SemiBold,72,&H00F7F4EF,&H00FFFFFF,&H8C000000,&H78000000,0,0,0,0,100,100,0.8,0,1,2.6,0,2,80,80,150,1
+Style: Title,Cormorant Garamond SemiBold,104,&H00F4F1EC,&H00FFFFFF,&H50000000,&H80000000,0,0,0,0,100,100,6,0,1,1.5,3,5,60,60,0,1
+Style: Tag,Cormorant Garamond Medium,44,&H00D9E6F0,&H00FFFFFF,&H50000000,&H80000000,0,1,0,0,100,100,2,0,1,1,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.30,0:00:02.90,Title,,0,0,0,,{\fad(600,500)}Beyond Survival
+Dialogue: 0,0:00:02.19,0:00:05.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Those of us who have gone to\Nhell and back know the path,
+Dialogue: 0,0:00:05.87,0:00:08.48,Sub,,0,0,0,,{\fad(180,180)\blur0.8}which is why we can\Nnavigate it safely,
+Dialogue: 0,0:00:08.51,0:00:10.72,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and every time we\Ngo back to hell,
+Dialogue: 0,0:00:10.75,0:00:13.28,Sub,,0,0,0,,{\fad(180,180)\blur0.8}something in us transforms.
+Dialogue: 0,0:00:13.31,0:00:16.32,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Those who have gone to\Nhell are not fragile,
+Dialogue: 0,0:00:16.35,0:00:17.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}because if we are here,
+Dialogue: 0,0:00:17.87,0:00:19.92,Sub,,0,0,0,,{\fad(180,180)\blur0.8}if we were able to\Ncome back and build
+Dialogue: 0,0:00:19.95,0:00:23.64,Sub,,0,0,0,,{\fad(180,180)\blur0.8}a life after the pain\Nand sorrow, after losses,
+Dialogue: 0,0:00:23.67,0:00:26.52,Sub,,0,0,0,,{\fad(180,180)\blur0.8}after destruction,\Nafter hopelessness,
+Dialogue: 0,0:00:26.55,0:00:29.16,Sub,,0,0,0,,{\fad(180,180)\blur0.8}it's because it\Nmade us stronger.
+Dialogue: 0,0:00:29.19,0:00:31.72,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Every single piece of\Nus that got damaged,
+Dialogue: 0,0:00:31.75,0:00:34.08,Sub,,0,0,0,,{\fad(180,180)\blur0.8}we used it to learn, to grow,
+Dialogue: 0,0:00:34.11,0:00:36.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and to be stronger and wiser.
+Dialogue: 0,0:00:36.87,0:00:39.72,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We all know what it means to\Nbe burnt and what it means
+Dialogue: 0,0:00:39.75,0:00:43.04,Sub,,0,0,0,,{\fad(180,180)\blur0.8}to have to rebuild\Nourselves from the ashes...
+Dialogue: 0,0:00:43.07,0:00:45.76,Sub,,0,0,0,,{\fad(180,180)\blur0.8}There are some scars,\Nof course there are,
+Dialogue: 0,0:00:45.79,0:00:47.88,Sub,,0,0,0,,{\fad(180,180)\blur0.8}but they are there\Nfor a purpose:
+Dialogue: 0,0:00:47.91,0:00:50.16,Sub,,0,0,0,,{\fad(180,180)\blur0.8}to remind us of what\Nwe have gone through
+Dialogue: 0,0:00:50.19,0:00:52.48,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and to make us proud\Nof our battles,
+Dialogue: 0,0:00:52.51,0:00:55.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}because we are here, and\Nby continuing to be here,
+Dialogue: 0,0:00:55.87,0:00:57.44,Sub,,0,0,0,,{\fad(180,180)\blur0.8}we have won.
+Dialogue: 0,0:00:57.47,0:01:01.04,Sub,,0,0,0,,{\fad(180,180)\blur0.8}But being wounded is not\Nthe same as being fragile.
+Dialogue: 0,0:01:01.07,0:01:03.60,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Surviving terrible\Nexperiences doesn't make
+Dialogue: 0,0:01:03.63,0:01:06.16,Sub,,0,0,0,,{\fad(180,180)\blur0.8}us incapable of\Nbeing broken again.
+Dialogue: 0,0:01:06.19,0:01:10.24,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Nor does every wound\Nautomatically make us stronger...
+Dialogue: 0,0:01:10.27,0:01:12.96,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Sometimes suffering\Nsimply hurts,
+Dialogue: 0,0:01:12.99,0:01:15.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and some of its\Nconsequences remain.
+Dialogue: 0,0:01:15.87,0:01:18.64,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Resilience is not the\Nabsence of damage,
+Dialogue: 0,0:01:18.67,0:01:22.24,Sub,,0,0,0,,{\fad(180,180)\blur0.8}but the ability to transform\Nthat damage into wisdom,
+Dialogue: 0,0:01:22.27,0:01:25.60,Sub,,0,0,0,,{\fad(180,180)\blur0.8}strength, and a renewed\Ncapacity to live.
+Dialogue: 0,0:01:25.63,0:01:27.36,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We don't have to\Nbe indestructible
+Dialogue: 0,0:01:27.39,0:01:29.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}to be extraordinarily\Nresilient.
+Dialogue: 0,0:01:29.87,0:01:33.56,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We can be vulnerable, feel\Ndespair, lose our way,
+Dialogue: 0,0:01:33.59,0:01:36.80,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and still possess the\Ncapacity to rebuild.
+Dialogue: 0,0:01:36.83,0:01:38.96,Sub,,0,0,0,,{\fad(180,180)\blur0.8}And perhaps the\Ngreatest victory isn't
+Dialogue: 0,0:01:38.99,0:01:41.20,Sub,,0,0,0,,{\fad(180,180)\blur0.8}that hell can no\Nlonger hurt us.
+Dialogue: 0,0:01:41.23,0:01:45.20,Sub,,0,0,0,,{\fad(180,180)\blur0.8}It's that hell didn't take\Naway our ability to live.
+Dialogue: 0,0:01:45.23,0:01:49.20,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Transformation is inevitable\Nbecause suffering changes us.
+Dialogue: 0,0:01:49.23,0:01:52.16,Sub,,0,0,0,,{\fad(180,180)\blur0.8}But what we become through\Nthat transformation is,
+Dialogue: 0,0:01:52.19,0:01:54.72,Sub,,0,0,0,,{\fad(180,180)\blur0.8}at least partly, a choice.
+Dialogue: 0,0:01:54.75,0:01:56.80,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We don't always\Nchoose the fire.
+Dialogue: 0,0:01:56.83,0:01:59.36,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We don't always choose\Nwhat it destroys.
+Dialogue: 0,0:01:59.39,0:02:01.36,Sub,,0,0,0,,{\fad(180,180)\blur0.8}And sometimes we\Ndon't even get to
+Dialogue: 0,0:02:01.39,0:02:04.24,Sub,,0,0,0,,{\fad(180,180)\blur0.8}choose how deeply\Nit changes us.
+Dialogue: 0,0:02:04.27,0:02:06.24,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Not everyone has\Nthe same resources
+Dialogue: 0,0:02:06.27,0:02:08.32,Sub,,0,0,0,,{\fad(180,180)\blur0.8}or opportunities to rebuild,
+Dialogue: 0,0:02:08.35,0:02:10.32,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and choosing growth\Ndoesn't mean we can
+Dialogue: 0,0:02:10.35,0:02:12.96,Sub,,0,0,0,,{\fad(180,180)\blur0.8}simply will ourselves\Ninto healing.
+Dialogue: 0,0:02:12.99,0:02:16.64,Sub,,0,0,0,,{\fad(180,180)\blur0.8}But we can choose what\Nto do with what remains.
+Dialogue: 0,0:02:16.67,0:02:17.36,Sub,,0,0,0,,{\fad(180,180)\blur0.8}So,
+Dialogue: 0,0:02:17.39,0:02:20.72,Sub,,0,0,0,,{\fad(180,180)\blur0.8}have we become stronger because\Nof everything we've survived,
+Dialogue: 0,0:02:20.75,0:02:23.12,Sub,,0,0,0,,{\fad(180,180)\blur0.8}or because we've repeatedly\Nrefused to let what
+Dialogue: 0,0:02:23.15,0:02:26.72,Sub,,0,0,0,,{\fad(180,180)\blur0.8}happened to us determine\Nwho we would become?
+Dialogue: 0,0:02:26.75,0:02:29.68,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Suffering didn't give\Nus resilience as a gift.
+Dialogue: 0,0:02:29.71,0:02:31.44,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We developed it\Nthrough the decisions
+Dialogue: 0,0:02:31.47,0:02:33.68,Sub,,0,0,0,,{\fad(180,180)\blur0.8}we made in its aftermath.
+Dialogue: 0,0:02:33.71,0:02:36.56,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Our strength doesn't come\Nfrom what happened to us.
+Dialogue: 0,0:02:36.59,0:02:38.32,Sub,,0,0,0,,{\fad(180,180)\blur0.8}It comes from what\Nwe've chosen to
+Dialogue: 0,0:02:38.35,0:02:40.64,Sub,,0,0,0,,{\fad(180,180)\blur0.8}do with what happened to us.
+Dialogue: 0,0:02:40.67,0:02:43.04,Sub,,0,0,0,,{\fad(180,180)\blur0.8}That means we don't\Nhave to glorify the
+Dialogue: 0,0:02:43.07,0:02:45.60,Sub,,0,0,0,,{\fad(180,180)\blur0.8}pain or be grateful\Nfor the destruction
+Dialogue: 0,0:02:45.63,0:02:47.84,Sub,,0,0,0,,{\fad(180,180)\blur0.8}to recognize the\Nperson we've become.
+Dialogue: 0,0:02:47.87,0:02:50.88,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Our scars are not\Nevidence of defeat.
+Dialogue: 0,0:02:50.91,0:02:54.16,Sub,,0,0,0,,{\fad(180,180)\blur0.8}They are the evidence of\Na life that continued...
+Dialogue: 0,0:02:54.19,0:02:55.96,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We can acknowledge\Nthat some things
+Dialogue: 0,0:02:55.99,0:02:57.68,Sub,,0,0,0,,{\fad(180,180)\blur0.8}should never have happened,
+Dialogue: 0,0:02:57.71,0:03:00.00,Sub,,0,0,0,,{\fad(180,180)\blur0.8}that some losses\Nwere unnecessary,
+Dialogue: 0,0:03:00.03,0:03:02.28,Sub,,0,0,0,,{\fad(180,180)\blur0.8}and that some\Nscars will remain,
+Dialogue: 0,0:03:02.31,0:03:05.68,Sub,,0,0,0,,{\fad(180,180)\blur0.8}while still being proud of\Nhow we've rebuilt ourselves.
+Dialogue: 0,0:03:05.71,0:03:08.80,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Victory was never about\Nemerging untouched.
+Dialogue: 0,0:03:08.83,0:03:12.80,Sub,,0,0,0,,{\fad(180,180)\blur0.8}It is about refusing to let\Ndestruction have the final word.
+Dialogue: 0,0:03:12.83,0:03:16.00,Sub,,0,0,0,,{\fad(180,180)\blur0.8}By continuing to be\Nhere, we have won.
+Dialogue: 0,0:03:16.03,0:03:19.28,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We don't have to keep proving\Nthat we can survive hell.
+Dialogue: 0,0:03:19.31,0:03:21.04,Sub,,0,0,0,,{\fad(180,180)\blur0.8}We're also allowed\Nto build a life
+Dialogue: 0,0:03:21.07,0:03:23.28,Sub,,0,0,0,,{\fad(180,180)\blur0.8}in which we no longer have to.
+Dialogue: 0,0:03:23.31,0:03:26.24,Sub,,0,0,0,,{\fad(180,180)\blur0.8}A peaceful life doesn't\Nmake us any less formidable
+Dialogue: 0,0:03:26.27,0:03:28.56,Sub,,0,0,0,,{\fad(180,180)\blur0.8}than the person who\Nsurvived the fire.
+Dialogue: 0,0:03:28.59,0:03:31.68,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Knowing we can survive\Ndestruction and no longer needing
+Dialogue: 0,0:03:31.71,0:03:34.40,Sub,,0,0,0,,{\fad(180,180)\blur0.8}destruction to recognize\Nour strength...
+Dialogue: 0,0:03:34.43,0:03:36.00,Sub,,0,0,0,,{\fad(180,180)\blur0.8}that is freedom:
+Dialogue: 0,0:03:36.03,0:03:38.32,Sub,,0,0,0,,{\fad(180,180)\blur0.8}realizing that just because\Nwe know the way through
+Dialogue: 0,0:03:38.35,0:03:41.28,Sub,,0,0,0,,{\fad(180,180)\blur0.8}hell doesn't mean we\Nhave to walk it again.
+Dialogue: 0,0:03:41.31,0:03:42.40,Sub,,0,0,0,,{\fad(180,180)\blur0.8}And then...
+Dialogue: 0,0:03:42.43,0:03:45.04,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Who do we get to become\Nwhen our life is no longer
+Dialogue: 0,0:03:45.07,0:03:47.76,Sub,,0,0,0,,{\fad(180,180)\blur0.8}organized around what\Nwe've had to survive?
+Dialogue: 0,0:03:47.79,0:03:51.36,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Survival teaches us what\Nwe're capable of enduring.
+Dialogue: 0,0:03:51.39,0:03:53.44,Sub,,0,0,0,,{\fad(180,180)\blur0.8}Freedom invites us\Nto discover what
+Dialogue: 0,0:03:53.47,0:03:55.50,Sub,,0,0,0,,{\fad(180,180)\blur0.8}we're capable of experiencing.

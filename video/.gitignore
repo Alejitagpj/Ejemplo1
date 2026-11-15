@@ -1,0 +1,11 @@
+# Heavy / personal media kept out of git
+*.mp3
+*.bin
+*.mp4
+*.log
+stills/
+clips/
+clips_test/
+clips_mix/
+seg/
+overlay.png
